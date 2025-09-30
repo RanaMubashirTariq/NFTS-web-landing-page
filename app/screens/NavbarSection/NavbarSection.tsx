@@ -97,10 +97,18 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
         </button>
       </div>
 
-      {/* Mobile Menu (Dropdown) */}
-      {menuOpen && (
-        <div className="fixed right-0 top-[100px] bg-[#040914] flex flex-col items-center justify-center text-white z-50 max-[1000px]:flex max-[1000px]:w-[250px] max-[1000px]:h-[350px] max-[767px]:w-[200px] max-[767px]:h-[250px] rounded-[20px]">
-          <ul className="flex flex-col items-center gap-6 font-['Exo2'] text-[18px] max-[767px]:text-[14px] max-[767px]:gap-[10px] font-semibold">
+      {/* Mobile Menu: Backdrop + Slide-in Panel */}
+      {/* Backdrop */}
+      <div
+        onClick={() => setMenuOpen(false)}
+        className={`hidden max-[1000px]:block fixed inset-0  z-40 transition-opacity duration-300 ${menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+      />
+      {/* Panel */}
+      <div
+        className={`hidden max-[1000px]:flex fixed top-[70px] right-0 text-white w-[220px] h-[85vh] pl-[20px] py-[30px] rounded-l-[12px] bg-[#040914] z-50 transform transition-transform duration-300 ease-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+      >
+        <div className="w-full">
+          <ul className="flex flex-col items-start gap-6 font-['Exo2'] text-[18px] max-[767px]:text-[14px] max-[767px]:gap-[10px] font-semibold">
             <li>
               <Link href="#explore" onClick={() => setMenuOpen(false)}>
                 Explore
@@ -123,24 +131,27 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
             </li>
           </ul>
           <div className="flex flex-col gap-4 mt-6 items-center">
-<button
-  onClick={() => {
-    setMenuOpen(false); // close the menu
-    onSignInClick();    // open modal
-  }}
-  className="text-white cursor-pointer bg-[#040914] font-['Exo2'] text-[15px] font-bold"
->
-  Sign In
-</button>
-            <button   onClick={() => {
-    setMenuOpen(false); // close the menu
-    onSignUpClick();    // open modal
-  }}  className="rounded-[45px] cursor-pointer py-[12px] px-[25px] bg-[#def85a] text-black font-['Exo2'] text-[14px] font-bold">
+            <button
+              onClick={() => {
+                setMenuOpen(false);
+                onSignInClick();
+              }}
+              className="text-white cursor-pointer bg-[#040914] font-['Exo2'] text-[15px] font-bold"
+            >
+              Sign In
+            </button>
+            <button
+              onClick={() => {
+                setMenuOpen(false);
+                onSignUpClick();
+              }}
+              className="rounded-[45px] cursor-pointer py-[12px] px-[25px] bg-[#def85a] text-black font-['Exo2'] text-[14px] font-bold"
+            >
               Create Account
             </button>
           </div>
         </div>
-      )}
+      </div>
     </div>
             </div>
   );

@@ -117,22 +117,22 @@ export default function FrameWrapperSubsection  ()  {
 
 
           <div className="flex justify-between items-center max-[500px]:flex-col  max-[500px]:item-center max-[500px]:gap-5 pr-[200px] max-[1370px]:pr-[120px] max-[1000px]:pr-[60px] max-[767px]:pr-[25px]">
-              <h1 className="w-[441px] font-['Exo2'] text-[37.5px] leading-[100%] tracking-[0] text-white max-[767px]:text-[28px] max-[500px]:w-full max-[500px]:text-center">Explore Categories</h1>
-              <button className="rounded-[30px] cursor-pointer transform transition-transform duration-300 hover:scale-90 w-[148.98px] h-[48.98px] bg-[#d3f85a] text-[#040914]  text-base leading-[100%] font-semibold hover:bg-[#d3f85a]/90  font-['Exo2'] ">See All</button>
+              <h1 className="w-[441px] font-['Exo2'] text-[44px] max-[1580px]:text-[37.5px] leading-[100%] tracking-[0] text-white max-[767px]:text-[28px] max-[500px]:w-full max-[500px]:text-center">Explore Categories</h1>
+              <button className="rounded-[30px] cursor-pointer transform transition-transform duration-300 hover:scale-90 w-[148.98px] h-[48.98px] bg-[#d3f85a] text-[#040914]  text-lg max-[1580px]:text-base leading-[100%] font-semibold hover:bg-[#d3f85a]/90  font-['Exo2'] ">See All</button>
           </div>
 
       <div className="grid grid-cols-4 max-[1200px]:flex max-[1200px]:flex-wrap max-[1200px]:items-center max-[1200px]:justify-center max-[1200px]:gap-10 max-[1100px]:gap-5 max-[950px]:gap-20 max-[767px]:gap-5 max-[765px]:flex-col max-[765px]:items-center gap-6 pr-[141px] max-[1370px]:pr-[50px] max-[767px]:pr-[25px]">
         {nftCards.map((card) => (
           <div key={card.id} className="relative max-[767px]:w-full">
-            <Card className=" w-[278px]  max-[765px]:w-full h-[427px] bg-[#121721cc] border-0 rounded-[9px] relative">
+            <Card className="min-[1580px]:w-[330px] w-[278px]  max-[765px]:w-full h-[427px] bg-[#121721cc] border-0 rounded-[9px] relative">
               <CardContent className="p-0 relative h-full">
                 <img
-                  className="absolute max-[765px]:w-[94%] max-[500px]:w-[90%] max-[765px]:rounded-[10px] w-60 h-[196px] top-[81px] right-[19px] max-[500px]:right-1/2 max-[500px]:translate-x-1/2 object-cover "
+                  className="absolute max-[765px]:w-[94%] max-[500px]:w-[90%] max-[765px]:rounded-[10px] min-[1580px]:w-[90%] min-[1500px]:rounded-[9px] w-60 h-[196px] top-[81px] right-[19px] max-[500px]:right-1/2 max-[500px]:translate-x-1/2 object-cover "
                   alt="Rectangle"
                   src={card.img}
                 />
 
-                <div className="absolute w-20 top-[25px] left-16 [font-family:'Exo2'] font-semibold text-white text-[13.5px] tracking-[0] leading-[15px] whitespace-nowrap">
+                <div className="absolute w-20 top-[25px] left-16 [font-family:'Exo2'] font-semibold text-white text-[15px] max-[1580px]:text-[13.5px] tracking-[0] leading-[15px] whitespace-nowrap">
                   {card.title}
                 </div>
 
@@ -146,7 +146,7 @@ export default function FrameWrapperSubsection  ()  {
 
                 <div className="absolute w-[98px] h-[30px] top-[289px] left-5 rounded-[22.5px]">
                   <div className="absolute w-[98px] h-[30px] top-0 left-0 bg-all-white rounded-[22.5px] opacity-10" />
-                  <div className="absolute w-[73px] top-[7px] left-3 [font-family:'Exo2'] font-normal text-white text-[13.5px] text-center tracking-[0] leading-[normal]">
+                  <div className="absolute w-[73px] top-[7px] left-3 [font-family:'Exo2'] font-normal text-white text-[15px] max-[1580px]:text-[13.5px] text-center tracking-[0] leading-[normal]">
                     {card.timer}
                   </div>
                 </div>
@@ -164,25 +164,25 @@ export default function FrameWrapperSubsection  ()  {
                   />
                 </div>
 
-                <div className="absolute w-[164px] top-[328px] left-5 [font-family:'Exo2'] font-bold text-white text-[19.5px] tracking-[0] leading-[normal]">
+                <div className="absolute min-[1500px]:w-[174px] w-[164px] top-[328px] left-5 [font-family:'Exo2'] font-bold text-white text-[21px] max-[1580px]:text-[19.5px] tracking-[0] leading-[normal]">
                   {card.gameTitle}
                 </div>
 
-                <div className="w-[21px] top-[332px] left-[190px] font-bold text-white text-[13.5px] leading-[normal] absolute [font-family:'Exo2'] tracking-[0]">
+                <div className="min-[1500px]:left-[210px] w-[21px] top-[332px] left-[190px] font-bold text-white text-[15px] max-[1580px]:text-[13.5px] leading-[normal] absolute [font-family:'Exo2'] tracking-[0]">
                   {card.edition}
                 </div>
 
-                <div className="absolute w-[74px] top-[352px] left-5 [font-family:'Exo2'] font-normal text-white text-[13.5px] tracking-[0] leading-[normal]">
+                <div className="absolute min-[1500px]:w-[84px] w-[74px] top-[352px] left-5 [font-family:'Exo2'] font-normal text-white text-[15px] max-[1580px]:text-[13.5px] tracking-[0] leading-[normal]">
                   {card.bidLabel}
                 </div>
 
-                <div className="absolute w-[104px] top-[382px] left-[19px] [font-family:'Exo2'] font-semibold text-[#d3f85a] text-[15px] tracking-[0] leading-[normal]">
+                <div className="absolute w-[104px] top-[382px] left-[19px] [font-family:'Exo2'] font-semibold text-[#d3f85a] text-[16px] max-[1580px]:text-[15px] tracking-[0] leading-[normal]">
                   {card.bidAmount}
                 </div>
 
                 <div className="absolute w-24 h-[34px] top-[374px] right-[18.75px]">
                   <Button className="w-[94px] h-[34px] bg-[#d3f85a] rounded-[37.5px] hover:bg-[#d3f85a]/90 h-auto">
-                    <div className="[font-family:'Exo2'] font-semibold  cursor-pointer transform transition-transform duration-300 hover:scale-90 text-black text-xs text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                    <div className="[font-family:'Exo2'] font-semibold  cursor-pointer transform transition-transform duration-300 hover:scale-90 text-black text-[13px] max-[1580px]:text-xs text-center tracking-[0] leading-[normal] whitespace-nowrap">
                       Place a Bid
                     </div>
                   </Button>

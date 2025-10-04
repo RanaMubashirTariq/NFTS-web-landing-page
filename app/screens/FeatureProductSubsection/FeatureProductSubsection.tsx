@@ -46,14 +46,14 @@ export default function FeatureProductSubsection() {
 
         {/* Example: Left-most image */}
         <img
-          className={`absolute w-[209px] max-[1300px]:w-[180px]  h-[338px] max-[500px]:h-[300px] top-[50px] left-0 object-cover transition-transform duration-500 ${getRotation(0)}`}
+          className={`absolute min-[1700px]:w-[260px] min-[1500px]:w-[230px]  w-[209px] max-[1300px]:w-[180px]  h-[338px] max-[500px]:h-[300px] top-[50px] left-0 object-cover transition-transform duration-500 ${getRotation(0)}`}
           alt="Rectangle"
           src={images[0]}
         />
 
         {/* Example: Second image */}
         <img
-          className={`absolute w-[330px] max-[1300px]:w-[240px] h-[375px] max-[500px]:h-[350px] rounded-[12px] top-7 left-[100px] object-cover max-[1100px]:left-[60px] max-[560px]:left-[40px] max-[400px]:left-[15px] transition-transform duration-500 ${getRotation(1)}`}
+          className={`absolute min-[1700px]:w-[390px] min-[1700px]:left-[200px] min-[1500px]:w-[360px] min-[1500px]:left-[150px]  w-[330px] max-[1300px]:w-[240px] h-[375px] max-[500px]:h-[350px] rounded-[12px] top-7 left-[100px] object-cover max-[1100px]:left-[60px] max-[560px]:left-[40px] max-[400px]:left-[15px] transition-transform duration-500 ${getRotation(1)}`}
           alt="Rectangle"
           src={images[1]}
         />
@@ -69,15 +69,15 @@ export default function FeatureProductSubsection() {
         </div>
 
         {/* Your center Card */}
-        <Card className={`relative w-[765px] max-[1100px]:w-[730px] max-[1000px]:w-[400px] max-[550px]:h-[280px] max-[550px]:w-[320px] max-[400px]:w-[300px] max-[350px]:w-[260px]  h-[428px] bg-white/6   backdrop-blur-sm  rounded-xl border-0 mb-[107px] z-10 transition-transform duration-500 ${getRotation(2)}`}>
+        <Card className={`relative min-[1700px]:w-[850px] min-[1500px]:w-[765px]  w-[765px] max-[1100px]:w-[730px] max-[1000px]:w-[400px] max-[550px]:h-[280px] max-[550px]:w-[320px] max-[400px]:w-[300px] max-[350px]:w-[260px]  h-[428px] bg-white/6   backdrop-blur-sm  rounded-xl border-0 mb-[107px] z-10 transition-transform duration-500 ${getRotation(2)}`}>
           <CardContent className="p-0 h-full ">
             <img
-              className="absolute w-[330px] h-[428px] max-[500px]:h-[390px] top-0 left-px rounded-[12px] object-cover max-[1100px]:w-[300px] max-[1000px]:w-[100%]"
+              className="absolute min-[1700px]:w-[390px] min-[1500px]:w-[360px] w-[330px] h-[428px] max-[500px]:h-[390px] top-0 left-px rounded-[12px] object-cover max-[1100px]:w-[300px] max-[1000px]:w-[100%]"
               alt="Rectangle"
               src={images[centerIndex]}
             />
             {/* Rest of your original content untouched */}
-                        <div className="absolute w-[363px] h-16 top-[90px] left-[353px]  max-[1100px]:left-[323px] max-[1000px]:left-[10px] max-[550px]:top-[110px]">
+                        <div className="absolute min-[1700px]:left-[430px] min-[1500px]:left-[380px] w-[363px] h-16 top-[90px] left-[353px]  max-[1100px]:left-[323px] max-[1000px]:left-[10px] max-[550px]:top-[110px]">
               <h2 className="absolute w-[360px] top-0 left-px [font-family:'Exo2'] font-semibold text-white text-[26.2px] max-[767px]:text-[20px] tracking-[0] leading-[37.5px] whitespace-nowrap">
                 Irradiation of Fake Yellow
               </h2>
@@ -95,7 +95,7 @@ export default function FeatureProductSubsection() {
               </div>
             </div>
 
-            <div className="absolute w-[375px] h-[383px] top-[22px] left-[353px] max-[1100px]:left-[323px] max-[1000px]:left-[10px] ">
+            <div className="absolute w-[375px] h-[383px] top-[22px] left-[353px] min-[1700px]:left-[430px] min-[1500px]:left-[380px]  max-[1100px]:left-[323px] max-[1000px]:left-[10px] ">
               <div className="absolute w-[315px] h-14 top-[327px] left-px flex gap-[13px] max-[550px]:top-[300px]">
                 <Button
                   variant="outline"
@@ -179,14 +179,14 @@ export default function FeatureProductSubsection() {
       </div>
 
       {/* Right-most container unchanged */}
-      <div className="absolute w-[340px] max-[1300px]:w-[246px] max-[1000px]:w-[340px] h-[375px] top-7 right-0 z-0">
+      <div className="absolute min-[1700px]:w-[535px] min-[1500px]:w-[429px] w-[340px] max-[1300px]:w-[246px] max-[1000px]:w-[340px] h-[375px] top-7 right-0 z-0">
         <img
-          className={`absolute w-[209px] max-[1300px]:w-[170px] max-[1000px]:w-[209px]  h-[338px] max-[500px]:h-[300px] max-[400px]:top-[30px] top-[22px] left-[131px] object-cover rounded-[12px] transition-transform duration-500 ${getRotation(4)}`}
+          className={`absolute min-[1700px]:w-[300px] min-[1500px]:w-[260px] min-[1700px]:left-[250px] min-[1500px]:left-[180px] w-[209px] max-[1300px]:w-[170px] max-[1000px]:w-[209px]  h-[338px] max-[500px]:h-[300px] max-[400px]:top-[30px] top-[22px] left-[131px] object-cover rounded-[12px] transition-transform duration-500 ${getRotation(4)}`}
           alt="Rectangle"
           src={images[4]}
         />
         <img
-          className={`absolute w-[244px] max-[1300px]:w-[200px] max-[1000px]:w-[244px] h-[375px] max-[500px]:h-[350px] top-0 left-0 object-cover rounded-[12px] max-[1100px]:left-[30px] max-[560px]:left-[60px] max-[400px]:left-[80px] z-10 transition-transform duration-500 ${getRotation(3)}`}
+          className={`absolute min-[1700px]:w-[360px] min-[1500px]:w-[270px] w-[244px] max-[1300px]:w-[200px] max-[1000px]:w-[244px] h-[375px] max-[500px]:h-[350px] top-0 left-0 object-cover rounded-[12px] max-[1100px]:left-[30px] max-[560px]:left-[60px] max-[400px]:left-[80px] z-10 transition-transform duration-500 ${getRotation(3)}`}
           alt="Rectangle"
           src={images[3]}
         />

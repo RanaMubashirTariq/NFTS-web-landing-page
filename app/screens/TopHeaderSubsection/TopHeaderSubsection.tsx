@@ -111,7 +111,7 @@ export default function TopHeaderSubsection() {
 
         {/* Desktop Layout */}
         <div className="absolute w-full h-[472px] top-0 left-0 max-[1022px]:hidden">
-          <div className="absolute w-full max-w-[835px] h-[472px] top-0 left-[505px] max-[1350px]:max-w-[669px] max-[1350px]:h-[380px] max-[1250px]:max-w-[530px] max-[1250px]:left-[460px] max-[1250px]:h-[300px] max-[1250px]:top-10">
+          <div className="absolute w-full min-[1750px]:left-[980px] min-[1500px]:left-[740px]  max-w-[835px] h-[472px] top-0 left-[505px] max-[1350px]:max-w-[669px] max-[1350px]:h-[380px] max-[1250px]:max-w-[530px] max-[1250px]:left-[460px] max-[1250px]:h-[300px] max-[1250px]:top-10">
             <img
               className="w-full h-full top-[39px] object-cover"
               alt="Rectangle"
@@ -122,23 +122,23 @@ export default function TopHeaderSubsection() {
             </div>
           </div>
 
-          <div className="absolute w-[350px] top-10 left-0">
-            <h1 className="[font-family:'Exo2'] font-semibold text-white text-[45px] leading-[56.2px]">
+          <div className="absolute min-[1500px]:w-[500px] w-[350px] top-10 left-0">
+            <h1 className="[font-family:'Exo2'] font-semibold text-white text-[64px] leading-[66px] max-[1500px]:text-[45px]  max-[1500px]:leading-[56.2px]">
               Create, Explore & Collect Digital Art NFTs
             </h1>
-            <p className="w-[396px] mt-6 [font-family:'Exo2'] font-light text-white text-[15px] leading-[23.2px]">
+            <p className="min-[1500px]:w-[430px] w-[396px] mt-6 [font-family:'Exo2'] font-light text-white text-[17px] max-[1500px]:text-[15px] leading-[23.2px]">
               Buy and sell NFTs from the world’s artists. More than 1000 premium
               digital artworks are available to be yours
             </p>
           </div>
 
           <div className="absolute w-[364px] top-[323px] left-0 flex gap-4">
-            <Button className="font-['Exo2'] font-normal text-black text-[15px] leading-[100%] w-[172px] h-[52px] transform transition-transform duration-300 hover:scale-90 cursor-pointer bg-[#d3f85a] hover:bg-[#d3f85a]/90 rounded-[58.5px]">
+            <Button className="font-['Exo2'] font-normal text-black text-[17px] max-[1500px]:text-[15px] leading-[100%] w-[172px] h-[52px] transform transition-transform duration-300 hover:scale-90 cursor-pointer bg-[#d3f85a] hover:bg-[#d3f85a]/90 rounded-[58.5px]">
                 Start Collecting
             </Button>
             <Button
              
-              className="w-[172px] h-[52px] transform transition-transform duration-300 hover:scale-90 cursor-pointer rounded-[58.5px] border border-[#d3f85a] text-white font-['Exo2'] leading-[100%]  text-[16.5px] font-normal hover:bg-[#d3f85a]/10"
+              className="w-[172px] h-[52px] transform transition-transform duration-300 hover:scale-90 cursor-pointer rounded-[58.5px] border border-[#d3f85a] text-white font-['Exo2'] leading-[100%]  text-[18px] max-[1500px]:text-[16.3px] font-normal hover:bg-[#d3f85a]/10"
             >
               Create NFTs
             </Button>

@@ -8,12 +8,12 @@ export default function SubscribeSubsection  () {
     <section className="w-full h-[525px] max-[1000px]:h-[900px] max-[767px]:h-[780px] max-[500px]:h-[750px] relative bg-white/4 ">
       <div className="relative w-full h-[525px] max-[1000px]:h-[900px] max-[767px]:h-[780px]  max-[500px]:h-[750px]  ">
         <div className="absolute w-full max-w-[448px] max-[1000px]:max-w-[512px] max-[400px]:max-w-[100%] h-[313px] top-[104px] left-[120px] max-[1370px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:top-[550px] max-[767px]:top-[450px] max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 max[999px]:px-[25px]">
-          <div className="absolute top-[77px] left-0 max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 [font-family:'Exo2'] font-light text-white text-3xl max-[767px]:text-[28px] tracking-[0] leading-[normal] whitespace-nowrap">
+          <div className="absolute top-[77px] left-0 max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 [font-family:'Exo2'] font-light text-white text-4xl max-[1500px]:text-3xl max-[767px]:text-[28px] tracking-[0] leading-[normal] whitespace-nowrap">
             News letter
           </div>
 
           <div className="absolute w-full  max-w-[448px]  max-[1000px]:w-full h-[313px] top-0 left-0 max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 max-[1000px]:ml-[30px] max-[560px]:ml-0">
-            <div className="absolute max-[400px]:w-[80%]  top-[130px] left-0  max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 [font-family:'Exo2'] font-semibold text-white text-[37.5px] tracking-[0] leading-[normal] whitespace-nowrap max-[400px]:whitespace-normal max-[400px]:text-center max-[767px]:text-[28px] ">
+            <div className="absolute max-[400px]:w-[80%]  top-[130px] left-0  max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 [font-family:'Exo2'] font-semibold text-white text-[44px] max-[1500px]:text-[37.5px] tracking-[0] leading-[normal] whitespace-nowrap max-[400px]:whitespace-normal max-[400px]:text-center max-[767px]:text-[28px] ">
               Subscribe Our Newsletter
             </div>
 
@@ -43,7 +43,7 @@ export default function SubscribeSubsection  () {
         </div>
 
         <img
-          className="absolute w-full max-w-[512px] h-[397px] top-[75px] left-[784px] max-[1370px]:left-[684px] max-[1100px]:left-[584px] max-[1100px]:max-w-[400px] max-[1000px]:max-w-[512px] max-[767px]:max-w-[400px] max-[767px]:h-[300px] max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 max-[1000px]:px-[25px]"
+          className="absolute w-full min-[1500px]:max-w-[600px] min-[1700px]:left-[1084px] min-[1500px]:left-[884] max-w-[512px] h-[397px] top-[75px] left-[784px] max-[1370px]:left-[684px] max-[1100px]:left-[584px] max-[1100px]:max-w-[400px] max-[1000px]:max-w-[512px] max-[767px]:max-w-[400px] max-[767px]:h-[300px] max-[1000px]:left-1/2 max-[1000px]:-translate-x-1/2 max-[1000px]:px-[25px]"
           alt="Group"
           src='/subcribtion-img.png'
         />

@@ -31,7 +31,7 @@ export default function UserFeedbackSubsection  () {
 
   return (
     <section className="w-full relative pl-[120px] pt-[77.83px] mt-[150px] max-[840px]:mt-[100px] max-[700px]:mt-[55px] max-[560px]:mt-0 pb-[75.75px] max-[1370px]:pl-[80px] max-[1100px]:pl-[50px] max-[1000px]:px-[25px] max-[1000px]:pt-[40px] max-[1000px]:pb-[40px]">
-      <h2 className="[font-family:'Exo2'] font-semibold text-white text-[37.5px] tracking-[0] leading-[100%] mb-[37.5px] max-[767px]:text-[28px] max-[767px]:mb-5 max-[767px]:text-center">
+      <h2 className="[font-family:'Exo2'] font-semibold text-white text-[44px] max-[1500px]:text-[37.5px] tracking-[0] leading-[100%] mb-[37.5px] max-[767px]:text-[28px] max-[767px]:mb-5 max-[767px]:text-center">
         User Feedback
       </h2>
 

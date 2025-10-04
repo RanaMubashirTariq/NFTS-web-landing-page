@@ -53,8 +53,8 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
 
 
       {/* Desktop Menu */}
-      <div className="flex justify-center items-center p-[15px] w-full max-w-[403px] max-[1000px]:hidden">
-        <ul className="flex justify-between items-center gap-[22.5px] font-['Exo2'] text-[13.5px] leading-[15px] font-semibold text-white">
+      <div className="flex justify-center items-center p-[15px] w-full max-w-[460px] max-[1500px]:max-w-[403px] max-[1000px]:hidden">
+        <ul className="flex justify-between items-center gap-[22.5px] font-['Exo2'] text-[16px] max-[1500px]:text-[13.5px] leading-[15px] font-semibold text-white">
           <li>
             <Link href="#explore">Explore</Link>
           </li>
@@ -71,11 +71,11 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
       </div>
 
       {/* Desktop Buttons */}
-      <div className="flex w-full max-w-[270.75px] h-full items-center justify-between gap-[25.5px] max-[1000px]:hidden">
-        <button  onClick={onSignInClick} className="text-white  cursor-pointer font-['Exo2'] text-[13.5px] font-bold leading-[15px]">
+      <div className="flex w-full max-w-[310px] max-[1500px]:max-w-[270.75px] h-full items-center justify-between gap-[25.5px] max-[1000px]:hidden">
+        <button  onClick={onSignInClick} className="text-white  cursor-pointer font-['Exo2'] text-[16px] max-[1500px]:text-[13.5px] font-bold leading-[15px]">
           Sign In
         </button>
-        <button  onClick={onSignUpClick} className="rounded-[45px] cursor-pointer transform transition-transform duration-300 hover:scale-90 py-[11.25px] px-[23.25px] bg-[#def85a] hover:bg-[#d3f85a]/90 text-black font-['Exo2'] text-[12px] font-bold leading-[15px]">
+        <button  onClick={onSignUpClick} className="rounded-[45px] cursor-pointer transform transition-transform duration-300 hover:scale-90 py-[11.25px] px-[23.25px] bg-[#def85a] hover:bg-[#d3f85a]/90 text-black font-['Exo2'] text-[16px] max-[1500px]:text-[12px] font-bold leading-[15px]">
           Create Account
         </button>
         <img
@@ -130,13 +130,13 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
               </Link>
             </li>
           </ul>
-          <div className="flex flex-col gap-4 mt-6 items-center">
+          <div className="flex flex-col gap-4 mt-6 items-start">
             <button
               onClick={() => {
                 setMenuOpen(false);
                 onSignInClick();
               }}
-              className="text-white cursor-pointer bg-[#040914] font-['Exo2'] text-[15px] font-bold"
+              className="text-white cursor-pointer bg-[#040914] font-['Exo2'] text-[15px] font-bold text-center"
             >
               Sign In
             </button>
@@ -145,7 +145,7 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
                 setMenuOpen(false);
                 onSignUpClick();
               }}
-              className="rounded-[45px] cursor-pointer py-[12px] px-[25px] bg-[#def85a] text-black font-['Exo2'] text-[14px] font-bold"
+              className="rounded-[45px] max-[1000px]:rounded-[20] max-[1000px]:py-[8px] cursor-pointer py-[12px] px-[25px] bg-[#def85a] text-black font-['Exo2'] text-[14px] font-bold"
             >
               Create Account
             </button>

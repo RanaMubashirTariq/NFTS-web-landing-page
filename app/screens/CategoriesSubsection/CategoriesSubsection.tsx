@@ -31,17 +31,17 @@ export default function CategoriesSubsection  ()  {
 
   return (
     <div className="w-full py-[75.25px] max-[1000px]:px-[25px] max-[767px]:py-[40px]">
-      <div className="grid grid-cols-6 max-[900px]:grid-cols-3 max-[450px]:grid-cols-2 justify-items-center max gap-[14px] w-full max-w-[890px]  mx-auto">
+      <div className="grid grid-cols-6 max-[900px]:grid-cols-3 max-[450px]:grid-cols-2 justify-items-center max gap-[14px] w-full min-[1500px]:max-w-[1300px] max-w-[890px]  mx-auto">
         {categories.map((category, index) => (
           <Card
             key={index}
-            className="w-[134px] h-[195px] bg-[#ffffff12] border-none rounded-xl cursor-pointer hover:bg-[#ffffff18] transition-colors"
+            className="min-[1500px]:w-[200px] min-[1500px]:h-[250px] w-[134px] h-[195px] bg-[#ffffff12] border-none rounded-xl cursor-pointer hover:bg-[#ffffff18] transition-colors"
           >
             <CardContent className="p-0 h-full flex flex-col">
               <div className="flex-1 p-[11px]">
                 {category.image ? (
                   <img
-                    className="w-[111px] h-28 object-cover rounded"
+                    className="min-[1500px]:w-full min-[1500px]:h-36 w-[111px] h-28 object-cover rounded"
                     alt="Rectangle"
                     src={category.image}
                   />

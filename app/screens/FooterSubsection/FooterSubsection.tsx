@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "../../components/ui/card";
+import Link from "next/link";
 
 export default function FooterSubsection  ()  {
   const communityLinks = ["About", "Blog", "RARI Token", "Suggest Features"];
@@ -29,7 +30,7 @@ export default function FooterSubsection  ()  {
 
         {/* Top curved background */}
         <img
-          className="absolute w-[1440px] h-[260px] top-[11px] left-0 max-[530px]:h-[387px]"
+          className="absolute min-[1500px]:w-full w-[1440px] h-[260px] top-[11px] left-0 max-[530px]:h-[387px]"
           alt="Vector"
           src="/bg-footer.png"
         />
@@ -87,7 +88,7 @@ export default function FooterSubsection  ()  {
         </div>
 
         {/* Dark background section */}
-        <div className="absolute w-[1440px] h-[328px] top-[271px] left-0 bg-dark-background" />
+        <div className="absolute min-[1500px]:w-full w-[1440px] h-[328px] top-[271px] left-0 bg-dark-background" />
 
         {/* NFTs logo and branding */}
         <div className="absolute w-[152px] h-[52px] max-[700px]:h-10 top-[317px]  max-[530px]:top-[450px] left-[279px] max-[1300px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
@@ -137,17 +138,17 @@ export default function FooterSubsection  ()  {
 
         <div   className="flex items-center justify-between  absolute w-[341px] max-[880px]:w-[280px] max-[500px]:w-[240px] h-14 max-[880px]:h-10 top-[442px] max-[530px]:top-[550px]  left-[279px] max-[1300px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
               
-              <div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/google_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div>
-              <div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/twitter_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div>
-               <div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/insta-1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div>
-              <div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/linked_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div> 
-               <div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/youtube_1.png"  className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5"alt="" /></div>
+               <Link href ='https://www.google.com/'> <div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/google_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" /> </div></Link>
+               <Link href='https://twitter.com/'><div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/twitter_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div></Link>
+               <Link href='https://www.instagram.com/'><div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/insta-1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div></Link>
+               <Link href='https://www.linkedin.com/'><div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/linked_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div> </Link>
+               <Link href='https://www.facebook.com/'><div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/youtube_1.png"  className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5"alt="" /></div></Link>
         </div>
 
         {/* Copyright section */}
-        <div className="absolute w-[1442px] h-[38px] bg-[#d3f85a] top-[560px] max-[530px]:top-[1040px] left-1/2 -translate-x-1/2 max-[700px]:top-[760px]">
-          <div className="relative w-[1440px] h-[38px] bg-nft-primary-color">
-            <div className="absolute top-2.5 left-[614px] [font-family:'Exo2'] font-medium text-black text-[13.5px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+        <div className="absolute min-[1500px]:w-full w-[1442px] h-[38px] bg-[#d3f85a] top-[560px] max-[530px]:top-[1040px] left-1/2 -translate-x-1/2 max-[700px]:top-[760px]">
+          <div className="relative min-[1500px]:w-full w-[1440px] h-[38px] bg-nft-primary-color">
+            <div className="absolute top-2.5 left-[614px] min-[1700px]:left-[850px] min-[1500px]:left-[670px] [font-family:'Exo2'] font-medium text-black text-[15px] max-[1500px]:text-[13.5px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
               © 2022 NFTs @ All Rights Reserved
             </div>
           </div>

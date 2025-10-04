@@ -9,14 +9,14 @@ import { Button } from "../../components/ui/button";
 
 export default function OverlapGroupWrapperSubsection  () {
   return (
-    <section className="relative  w-full max-w-[917px] h-[438px] max-[400px]:h-[400px] mx-auto py-[74.5px] max-[1000px]:px-[50px] max-[767px]:px-[25px] max-[767px]:py-[40px]">
-         <div className="font-['Exo2'] text-[37.5px] max-[767px]:text-[28px] leading-[100%] tracking-[0] font-semibold text-white w-full text-center mb-[37.5px] ">
+    <section className="relative  w-full min-[1500px]:max-w-[1100px] max-w-[917px] h-[438px] max-[400px]:h-[400px] mx-auto py-[74.5px] max-[1000px]:px-[50px] max-[767px]:px-[25px] max-[767px]:py-[40px]">
+         <div className="font-['Exo2'] text-[44px] max-[1500px]:text-[37.5px] max-[767px]:text-[28px] leading-[100%] tracking-[0] font-semibold text-white w-full text-center mb-[37.5px] ">
              <h1>Best Bid People</h1>
          </div>
-          <img src="/pona-circle.png" className="absolute -right-[260px] top-[100px] w-[255px] max-[1300px]:w-[180px] max-[1300px]:-right-[180px] max-[1300px]:h-[300px] max-[1100px]:w-[100px] max-[1100px]:-right-[50px] max-[1000px]:right-0 max-[1100px]:h-[200px] max-[767px]:w-[70px] max-[767px]:right-0 max-[767px]:h-[100px] max-[767px]:top-[100px]  max-[1100px]:top-[50px] max-[400px]:top-[70px]  h-[383px]" alt="" />
+          <img src="/pona-circle.png" className="absolute min-[1700px]:right-[-400px] -right-[260px] top-[100px] w-[255px] max-[1300px]:w-[180px] max-[1300px]:-right-[180px] max-[1300px]:h-[300px] max-[1100px]:w-[100px] max-[1100px]:-right-[50px] max-[1000px]:right-0 max-[1100px]:h-[200px] max-[767px]:w-[70px] max-[767px]:right-0 max-[767px]:h-[100px] max-[767px]:top-[100px]  max-[1100px]:top-[50px] max-[400px]:top-[70px]  h-[383px]" alt="" />
       <div className="relative w-full h-full flex items-center justify-center max-[400px]:mt-[50px]">
         <img
-          className="absolute w-[878px] h-[331px] max-[840px]:h-[270px] max-[560px]:h-[200px] max-[400px]:h-[150px] top-[107px] max-[400px]:top-[60px] left-1/2 transform -translate-x-1/2"
+          className="absolute min-[1500px]:w-[1000px] w-[878px] h-[331px] max-[840px]:h-[270px] max-[560px]:h-[200px] max-[400px]:h-[150px] top-[107px] max-[400px]:top-[60px] left-1/2 transform -translate-x-1/2"
           alt="Ellipse"
           src="/half-circle.png"
         />
@@ -44,7 +44,7 @@ export default function OverlapGroupWrapperSubsection  () {
             <AvatarImage src="/wrapper-logo.png" className="w-full h-full  object-cover ml-4 max-[400px]:ml-2" alt="Profile" />
           </Avatar>
 
-          <div className="absolute top-[283px] max-[840px]:top-[240px] max-[500px]:text-[8px] max-[560px]:top-[180px] max-[400px]:top-[120px] left-1/2 transform -translate-x-1/2 [font-family:'Exo2'] font-normal text-white text-xs tracking-[0] leading-[normal] whitespace-nowrap">
+          <div className="absolute top-[283px] max-[840px]:top-[240px] max-[500px]:text-[8px] max-[560px]:top-[180px] max-[400px]:top-[120px] left-1/2 transform -translate-x-1/2 [font-family:'Exo2'] font-normal text-white text-[14px] max-[1500px]:text-xs tracking-[0] leading-[normal] whitespace-nowrap">
             @Wakling houn
           </div>
 

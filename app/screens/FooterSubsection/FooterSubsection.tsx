@@ -36,7 +36,7 @@ export default function FooterSubsection  ()  {
         />
 
         {/* Download app section */}
-        <div className="absolute top-[95px] max-[530px]:text-center left-[553px] max-[1100px]:left-[400px] max-[1300px]:left-[450px] max-[1000px]:left-[300px] max-[880px]:left-[25px] [font-family:'roboto'] font-normal text-white text-[27.8px] tracking-[0] leading-[33px] max-[530px]:left-1/2 max-[530px]:-translate-x-1/2">
+        <div className="absolute top-[95px] max-[530px]:text-center left-[553px] max-[1100px]:left-[400px] max-[1350px]:left-[450px] max-[1000px]:left-[300px] max-[880px]:left-[25px] [font-family:'roboto'] font-normal text-white text-[27.8px] tracking-[0] leading-[33px] max-[530px]:left-1/2 max-[530px]:-translate-x-1/2">
           <span className="font-semibold font-['roboto'] text-white">
             Download <br />
           </span>
@@ -45,13 +45,13 @@ export default function FooterSubsection  ()  {
 
         {/* App store cards */}
                
-               <div className=" relative max-[530px]:ml-[130px] max-[400px]:ml-[150px] ">
-                  <button className="max-[530px]:mr-[30px] absolute top-[143px] max-[530px]:top-[270px] max-[530px]:right-1/2 max-[530px]:-translate-x-1/2  right-[333px] max-[1100px]:right-[50px] max-[1300px]:right-[170px] max-[1000px]:right-[25px]  max-[880px]:right-[25px] border-none outline-none bg-transparent w-[105px] h-[127.5px]  bg-white flex flex-col item-center rounded-t-[60px]  gap-[14.5px]">
+               <div className=" relative max-[530px]:ml-[130px]  max-[400px]:ml-[150px] ">
+                  <button className="max-[530px]:mr-[30px] absolute top-[143px] max-[530px]:top-[270px] max-[530px]:right-1/2 max-[530px]:-translate-x-1/2  right-[333px] max-[1100px]:right-[50px] max-[1350px]:right-[170px] max-[1000px]:right-[25px]  max-[880px]:right-[25px] border-none outline-none bg-transparent w-[105px] h-[127.5px]  bg-white flex flex-col item-center rounded-t-[60px]  gap-[14.5px]">
                             <img src="/a-img.png" className="w-[25px h-[27px] object-contain mt-[32.25px]" alt="" />
                              <img src="remain-1.png" className="w-[63.9px] h-[9.36px] object-contain ml-5" alt="" />
                              <span className="font-['Exo2'] text-[12px] font-extrabold leading-[11.5px] text-black">24/5</span>
                    </button>
-                                   <button className=" absolute top-[143px] max-[530px]:top-[270px] max-[530px]:right-1/4 max-[530px]:-translate-x-1/4 right-[453px] max-[1100px]:right-[50px] max-[1300px]:right-[283px] max-[1100px]:right-[200px] max-[880px]:right-[150px] max-[367px]:right-1/5 max-[367px]:-translate-x-1/5 border-none outline-none bg-transparent w-[105px] h-[127.5px]  bg-white flex flex-col item-center rounded-t-[60px]  gap-[14.5px]">
+                                   <button className=" absolute top-[143px] max-[530px]:top-[270px] max-[530px]:right-1/4 max-[530px]:-translate-x-1/4 right-[453px] max-[1100px]:right-[50px] max-[1350px]:right-[283px] max-[1100px]:right-[200px] max-[880px]:right-[150px] max-[367px]:right-1/5 max-[367px]:-translate-x-1/5 border-none outline-none bg-transparent w-[105px] h-[127.5px]  bg-white flex flex-col item-center rounded-t-[60px]  gap-[14.5px]">
                             <img src="/playstore.png" className="w-[25px h-[27px] object-contain mt-[32.25px]" alt="" />
                              <img src="remain-1.png" className="w-[63.9px] h-[9.36px] object-contain ml-5" alt="" />
                              <span className="font-['Exo2'] text-[12px] font-extrabold leading-[11.5px] text-black">24/5</span>
@@ -61,19 +61,19 @@ export default function FooterSubsection  ()  {
 
         {/* Download buttons */}
         <img
-          className="absolute w-[236px] h-10 top-48 left-[553px] max-[1100px]:left-[400px] max-[1300px]:left-[450px] max-[1000px]:left-[300px] max-[880px]:left-[25px] max-[530px]:left-1/2 max-[530px]:-translate-x-1/2"
+          className="absolute w-[236px] h-10 top-48 left-[553px] max-[1100px]:left-[400px] max-[1350px]:left-[450px] max-[1000px]:left-[300px] max-[880px]:left-[25px] max-[530px]:left-1/2 max-[530px]:-translate-x-1/2"
           alt="Download buttons"
           src="/download-avater.png"
         />
 
         {/* QR Code section */}
         <img
-          className="absolute w-[212px] h-[261px] top-[9px] left-[277px] max-[1300px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[880px]:hidden"
+          className="absolute w-[212px] h-[261px] top-[9px] left-[277px] max-[1350px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[880px]:hidden"
           alt="QR background"
           src="/empty-border.png"
         />
 
-        <Card className="absolute w-[153px] h-[151px] top-[41px] left-[307px] bg-white rounded-[9px] border-0 max-[1300px]:left-[110px] max-[1100px]:left-[80px] max-[1000px]:left-[55px] max-[880px]:hidden">
+        <Card className="absolute w-[153px] h-[151px] top-[41px] left-[307px] bg-white rounded-[9px] border-0 max-[1350px]:left-[110px] max-[1100px]:left-[80px] max-[1000px]:left-[55px] max-[880px]:hidden">
           <CardContent className="p-0 relative w-full h-full">
             <img
               className="absolute w-[117px] h-[117px] top-[18px] left-[18px]"
@@ -83,7 +83,7 @@ export default function FooterSubsection  ()  {
           </CardContent>
         </Card>
 
-        <div className="absolute top-[214px] left-[333px] [font-family:'Exo2'] font-semibold text-white text-[19.5px] text-center tracking-[0] leading-[normal] whitespace-nowrap max-[1300px]:left-[130px] max-[1100px]:left-[100px] max-[1000px]:left-[75px] max-[880px]:hidden">
+        <div className="absolute top-[214px] left-[333px] [font-family:'Exo2'] font-semibold text-white text-[19.5px] text-center tracking-[0] leading-[normal] whitespace-nowrap max-[1350px]:left-[130px] max-[1100px]:left-[100px] max-[1000px]:left-[75px] max-[880px]:hidden">
           Scane Here
         </div>
 
@@ -91,7 +91,7 @@ export default function FooterSubsection  ()  {
         <div className="absolute min-[1500px]:w-full w-[1440px] h-[328px] top-[271px] left-0 bg-dark-background" />
 
         {/* NFTs logo and branding */}
-        <div className="absolute w-[152px] h-[52px] max-[700px]:h-10 top-[317px]  max-[530px]:top-[450px] left-[279px] max-[1300px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
+        <div className="absolute w-[152px] h-[52px] max-[700px]:h-10 top-[317px]  max-[530px]:top-[450px] left-[279px] max-[1400px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
           <div className="relative w-[154px] h-[52px]">
             <img
               className="w-full h-full object-cover"
@@ -103,20 +103,20 @@ export default function FooterSubsection  ()  {
 
         {/* Community sections */}
 
-        <div className="absolute w-full max-[767px]:text-center top-[404px] max-[530px]:top-[510px]  left-[279px] [font-family:'Exo2'] font-semibold text-white text-lg tracking-[0] leading-[normal] max-[1300px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
+        <div className="absolute w-full max-[767px]:text-center top-[404px] max-[530px]:top-[510px]  left-[279px] [font-family:'Exo2'] font-semibold text-white text-lg tracking-[0] leading-[normal] max-[1400px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
           Join NFTs Community
         </div>
 
         {/* Community navigation sections */}
-        <div className="absolute top-[323px] max-[530px]:top-[630px]  right-[641px] max-[1100px]:right-[50px] max-[1300px]:right-[420px] max-[1100px]:right-[365px]  max-[880px]:right-[270px] max-[700px]:top-[530px]  max-[880px]:mr-[25px] max-[530px]:mr-0 max-[700px]:right-1/2 max-[700px]:-translate-x-1/2  max-[530px]:right-1/2 max-[530px]:translate-x-1/2 [font-family:'Exo2'] font-semibold text-white text-[18.8px] max-[530px]:text-center tracking-[0] leading-[21.8px] whitespace-nowrap">
+        <div className="absolute top-[323px] max-[530px]:top-[630px]  right-[641px] max-[1100px]:right-[50px] max-[1400px]:right-[420px] max-[1100px]:right-[365px]  max-[880px]:right-[270px] max-[700px]:top-[530px]  max-[880px]:mr-[25px] max-[530px]:mr-0 max-[700px]:right-1/2 max-[700px]:-translate-x-1/2  max-[530px]:right-1/2 max-[530px]:translate-x-1/2 [font-family:'Exo2'] font-semibold text-white text-[18.8px] max-[530px]:text-center tracking-[0] leading-[21.8px] whitespace-nowrap">
           Community
         </div>
 
-        <div className="absolute top-[323px] max-[530px]:top-[830px] right-[351px] max-[1100px]:right-[50px] max-[1300px]:right-[200px] max-[1000px]:right-[25px]  max-[880px]:right-[40px] max-[700px]:top-[530px]  max-[700px]:right-1/5 max-[700px]:-translate-x-1/5 max-[560px]:right-1/7 max-[560px]:-translate-x-1/7 max-[560px]:mr-[20px] max-[530px]:mr-0 max-[700px]:mr-[25px]  max-[530px]:right-1/2 max-[530px]:translate-x-1/2  max-[530px]:text-center  [font-family:'Exo2'] font-semibold text-white text-[18.8px] tracking-[0] leading-[21.8px] whitespace-nowrap">
+        <div className="absolute top-[323px] max-[530px]:top-[830px] right-[351px] max-[1100px]:right-[50px] max-[1400px]:right-[200px] max-[1000px]:right-[25px]  max-[880px]:right-[40px] max-[700px]:top-[530px]  max-[700px]:right-1/5 max-[700px]:-translate-x-1/5 max-[560px]:right-1/7 max-[560px]:-translate-x-1/7 max-[560px]:mr-[20px] max-[530px]:mr-0 max-[700px]:mr-[25px]  max-[530px]:right-1/2 max-[530px]:translate-x-1/2  max-[530px]:text-center  [font-family:'Exo2'] font-semibold text-white text-[18.8px] tracking-[0] leading-[21.8px] whitespace-nowrap">
           Community
         </div>
 
-        <nav className="absolute top-[359px] cursor-pointer max-[530px]:top-[670px] right-[333px] max-[1100px]:right-[50px] max-[1300px]:right-[180px] max-[1000px]:right-[25px]  max-[880px]:right-[25px] max-[700px]:top-[560px] max-[700px]:right-1/2 max-[700px]:-translate-x-1/2   max-[530px]:right-1/2 max-[530px]:translate-x-1/2  [font-family:'Exo2'] font-normal text-white text-[15px] tracking-[0] leading-9 max-[530px]:text-center">
+        <nav className="absolute top-[359px] cursor-pointer max-[530px]:top-[670px] right-[333px] max-[1100px]:right-[50px] max-[1400px]:right-[180px] max-[1000px]:right-[25px]  max-[880px]:right-[25px] max-[700px]:top-[560px] max-[700px]:right-1/2 max-[700px]:-translate-x-1/2   max-[530px]:right-1/2 max-[530px]:translate-x-1/2  [font-family:'Exo2'] font-normal text-white text-[15px] tracking-[0] leading-9 max-[530px]:text-center">
           {communityLinks.map((link, index) => (
             <div key={`community-1-${index}`}>
               {link}
@@ -125,7 +125,7 @@ export default function FooterSubsection  ()  {
           ))}
         </nav>
 
-        <nav className="absolute top-[359px] cursor-pointer max-[530px]:top-[870px] right-[622px] max-[1100px]:right-[50px] max-[1300px]:right-[400px] max-[1100px]:right-[350px]  max-[880px]:right-[250px] max-[700px]:top-[560px] max-[700px]:right-1/5 max-[700px]:-translate-x-1/5 max-[560px]:right-1/7 max-[560px]:-translate-x-1/7  max-[530px]:right-1/2 max-[530px]:translate-x-1/2    [font-family:'Exo2'] max-[530px]:text-center font-normal text-white text-[15px] tracking-[0] leading-9">
+        <nav className="absolute top-[359px] cursor-pointer max-[530px]:top-[870px] right-[622px] max-[1100px]:right-[50px] max-[1400px]:right-[400px] max-[1100px]:right-[350px]  max-[880px]:right-[250px] max-[700px]:top-[560px] max-[700px]:right-1/5 max-[700px]:-translate-x-1/5 max-[560px]:right-1/7 max-[560px]:-translate-x-1/7  max-[530px]:right-1/2 max-[530px]:translate-x-1/2    [font-family:'Exo2'] max-[530px]:text-center font-normal text-white text-[15px] tracking-[0] leading-9">
           {communityLinks.map((link, index) => (
             <div key={`community-2-${index}`}>
               {link}
@@ -136,7 +136,7 @@ export default function FooterSubsection  ()  {
 
         {/* Social media icons */}
 
-        <div   className="flex items-center justify-between  absolute w-[341px] max-[880px]:w-[280px] max-[500px]:w-[240px] h-14 max-[880px]:h-10 top-[442px] max-[530px]:top-[550px]  left-[279px] max-[1300px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
+        <div   className="flex items-center justify-between  absolute w-[341px] max-[880px]:w-[280px] max-[500px]:w-[240px] h-14 max-[880px]:h-10 top-[442px] max-[530px]:top-[550px]  left-[279px] max-[1400px]:left-[80px] max-[1100px]:left-[50px] max-[1000px]:left-[25px] max-[700px]:left-1/2 max-[700px]:-translate-x-1/2">
               
                <Link href ='https://www.google.com/'> <div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/google_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" /> </div></Link>
                <Link href='https://twitter.com/'><div className="bg-[url('/icon-bg.png')] bg-center w-[56px] h-[56px] max-[880px]:w-10 max-[880px]:h-10 rounded-[15px] flex items-center justify-center cursor-pointer transform transition-transform duration-300 hover:scale-90"><img src="/twitter_1.png" className="w-[30px] h-[30px] max-[880px]:w-5 max-[880px]:h-5" alt="" /></div></Link>

@@ -57,7 +57,7 @@ export default function OverlapGroupWrapperSubsection  () {
           <Button
             variant="outline"
             size="icon"
-            className="w-[60px] h-[60px] max-[840px]:w-[40px] max-[840px]:h-[40px]  rounded-[30px] border-[0.75px] border-solid border-white bg-transparent hover:bg-white/10"
+            className="cursor-pointer w-[60px] h-[60px] max-[840px]:w-[40px] max-[840px]:h-[40px]  rounded-[30px] border-[0.75px] border-solid border-white bg-transparent hover:bg-white/10"
           >
             <ChevronLeftIcon className="w-[18px] h-[18px] text-[#d3f85a]" />
           </Button>
@@ -65,7 +65,7 @@ export default function OverlapGroupWrapperSubsection  () {
           <Button
             variant="outline"
             size="icon"
-            className="w-[60px] h-[60px] max-[840px]:w-[40px] max-[840px]:h-[40px] rounded-[30px] border-[0.75px] border-solid border-white bg-transparent hover:bg-white/10"
+            className="cursor-pointer w-[60px] h-[60px] max-[840px]:w-[40px] max-[840px]:h-[40px] rounded-[30px] border-[0.75px] border-solid border-white bg-transparent hover:bg-white/10"
           >
             <ChevronRightIcon className="w-[18px] h-[18px] text-[#d3f85a]" />
           </Button>

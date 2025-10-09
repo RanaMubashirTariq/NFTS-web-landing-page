@@ -30,7 +30,7 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
         />
 
         {/* Search with expanding input */}
-        <div className="relative flex items-center ">
+        <div className="relative flex items-center z-51">
           {/* Search Icon */}
           <img
             src="/search.png"
@@ -75,7 +75,7 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
         <button  onClick={onSignInClick} className="text-white  cursor-pointer font-['Exo2'] text-[16px] max-[1500px]:text-[13.5px] font-bold leading-[15px]">
           Sign In
         </button>
-        <button  onClick={onSignUpClick} className="rounded-[45px] cursor-pointer transform transition-transform duration-300 hover:scale-90 py-[11.25px] px-[23.25px] bg-[#def85a] hover:bg-[#d3f85a]/90 text-black font-['Exo2'] text-[16px] max-[1500px]:text-[12px] font-bold leading-[15px]">
+        <button  onClick={onSignUpClick} className="rounded-[45px] cursor-pointer transform transition-transform duration-300 hover:scale-90 min-[1500px]:py-[11.25px] min-[1500px]:px-[23.25px] bg-[#def85a] hover:bg-[#d3f85a]/90 text-black font-['Exo2'] text-[16px] max-[1500px]:text-[12px] font-bold leading-[15px] max-[1500px]:w-[131px] max-[1500px]:h-[37px]">
           Create Account
         </button>
         <img
@@ -145,7 +145,7 @@ export default function NavbarSection({ onSignInClick, onSignUpClick }: NavbarSe
                 setMenuOpen(false);
                 onSignUpClick();
               }}
-              className="rounded-[45px] max-[1000px]:rounded-[20] max-[1000px]:py-[8px] cursor-pointer py-[12px] px-[25px] bg-[#def85a] text-black font-['Exo2'] text-[14px] font-bold"
+              className="rounded-[45px] max-[1000px]:rounded-[20] max-[1000px]:py-[8px] cursor-pointer py-[11px] px-[20px] bg-[#def85a] text-black font-['Exo2'] text-[12px] leading-[15px] tracking-0 font-bold w-[131px]"
             >
               Create Account
             </button>

@@ -179,7 +179,7 @@ export default function FeatureProductSubsection() {
       </div>
 
       {/* Right-most container unchanged */}
-      <div className="absolute min-[1700px]:w-[535px] min-[1500px]:w-[429px] w-[340px] max-[1300px]:w-[246px] max-[1000px]:w-[340px] h-[375px] top-7 right-0 z-0">
+      <div className="absolute min-[1700px]:w-[535px] min-[1500px]:w-[429px] w-[340px] max-[1300px]:w-[253px] max-[1000px]:w-[340px] h-[375px] top-7 right-0 z-0">
         <img
           className={`absolute min-[1700px]:w-[300px] min-[1500px]:w-[260px] min-[1700px]:left-[250px] min-[1500px]:left-[180px] w-[209px] max-[1300px]:w-[170px] max-[1000px]:w-[209px]  h-[338px] max-[500px]:h-[300px] max-[400px]:top-[30px] top-[22px] left-[131px] object-cover rounded-[12px] transition-transform duration-500 ${getRotation(4)}`}
           alt="Rectangle"

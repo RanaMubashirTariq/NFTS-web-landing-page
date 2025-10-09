@@ -111,7 +111,7 @@ export default function TopHeaderSubsection() {
 
         {/* Desktop Layout */}
         <div className="absolute w-full h-[472px] top-0 left-0 max-[1022px]:hidden">
-          <div className="absolute w-full min-[1750px]:left-[980px] min-[1500px]:left-[740px]  max-w-[835px] h-[472px] top-0 left-[505px] max-[1350px]:max-w-[669px] max-[1350px]:h-[380px] max-[1250px]:max-w-[530px] max-[1250px]:left-[460px] max-[1250px]:h-[300px] max-[1250px]:top-10">
+          <div className="absolute w-full min-[1750px]:left-[980px] min-[1500px]:left-[740px]  max-w-[835px] h-[472px] top-0 left-[505px] max-[1350px]:max-w-[669px] max-[1350px]:h-[380px] max-[1350px]:left-[560px] max-[1250px]:max-w-[530px] max-[1250px]:left-[460px] max-[1250px]:h-[300px] max-[1250px]:top-10">
             <img
               className="w-full h-full top-[39px] object-cover"
               alt="Rectangle"

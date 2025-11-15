@@ -97,7 +97,8 @@ function SignInModal({ onClose }: { onClose: () => void }) {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full rounded-xl placeholder:text-white text-white border border-neutral-200 bg-white/20 px-3 py-2 text-sm outline-none focus:ring-4 focus:ring-black/10"
+                  className="w-full rounded-xl text-[#040914] placeholder:text-[#040914] border border-neutral-200 bg-white/20 px-3 py-2 text-sm outline-none focus:ring-4 focus:ring-black/10"
+                   
                   placeholder="you@example.com"
                   autoComplete="email"
                   required
@@ -115,7 +116,7 @@ function SignInModal({ onClose }: { onClose: () => void }) {
                     type={showPwd ? "text" : "password"}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="w-full rounded-xl border placeholder:text-white  text-white border-neutral-200 bg-white/20 px-3 py-2 pr-12 text-sm outline-none focus:ring-4 focus:ring-black/10 "
+                    className="w-full rounded-xl border text-[#040914] placeholder:text-[#040914] border-neutral-200 bg-white/20 px-3 py-2 pr-12 text-sm outline-none focus:ring-4 focus:ring-black/10 "
                     placeholder="••••••••"
                     autoComplete="current-password"
                     required
@@ -123,7 +124,7 @@ function SignInModal({ onClose }: { onClose: () => void }) {
                   <button
                     type="button"
                     onClick={() => setShowPwd(!showPwd)}
-                    className="absolute right-3 top-[10px] text-white  "
+                    className="absolute right-3 top-[10px] text-white  z-10"
                   >
                     {showPwd ? <Eye size={18} /> : <EyeOff size={18} />}
                   </button>
@@ -150,7 +151,7 @@ function SignInModal({ onClose }: { onClose: () => void }) {
 
   <a
     href="#"
-    className="text-sm underline-offset-4 hover:underline leading-[100%] text-white font-['Exo2']"
+    className="text-sm underline-offset-4 hover:underline hover:text-[#d3f85a] cursor-pointer leading-[100%] text-white font-['Exo2']"
   >
     Forgot password?
   </a>

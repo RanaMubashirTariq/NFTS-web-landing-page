@@ -79,7 +79,7 @@ const [showConfirmPassword, setShowConfirmPassword] = useState(false);
       <div ref={dialogRef} className="absolute inset-0 grid place-items-center p-4">
         <div className="relative w-full max-w-md rounded-2xl  shadow-2xl ring-1 ring-black/5 bg-[#040914] text-white">
           
-        <div className="absolute w-[278px] h-[273px] top-[200px] left-[32px] rounded-[139.16px/136.73px] rotate-[177.74deg] blur-[147.75px] bg-[linear-gradient(141deg,rgba(123,164,154,0.5)_0%,rgba(21,151,119,0.5)_100%)]" />
+        <div className="pointer-events-none absolute w-[278px] h-[273px] top-[200px] left-[32px] rounded-[139.16px/136.73px] rotate-[177.74deg] blur-[147.75px] bg-[linear-gradient(141deg,rgba(123,164,154,0.5)_0%,rgba(21,151,119,0.5)_100%)]" />
           <button
             onClick={onClose}
             aria-label="Close"
@@ -173,7 +173,7 @@ const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   <button
     type="button"
     onClick={() => setShowPassword(!showPassword)}
-    className="absolute right-3 top-8 text-white "
+    className="absolute right-3 top-8 text-white cursor-pointer z-10"
   >
     {showPassword ? <Eye size={18} /> : <EyeOff size={18} />}
   </button>
@@ -193,14 +193,14 @@ const [showConfirmPassword, setShowConfirmPassword] = useState(false);
     type={showConfirmPassword ? "text" : "password"} // 👈 toggle type
     value={confirmPassword}
     onChange={(e) => setConfirmPassword(e.target.value)}
-    className="z-10 w-full rounded-xl border text-white border-neutral-200 bg-white/20 px-3 py-2 pr-10 text-sm outline-none focus:ring-4 focus:ring-black/10 dark:border-neutral-700 dark:bg-neutral-950"
+    className="z-10 w-full rounded-xl border text-white border-neutral-200 bg-white/20 text-[#040914] px-3 py-2 pr-10 text-sm outline-none focus:ring-4 focus:ring-black/10"
     placeholder="••••••••"
     required
   />
   <button
     type="button"
     onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-    className="absolute right-3 top-8 text-white "
+    className="absolute right-3 top-8 text-white cursor-pointer z-10"
   >
     {showConfirmPassword ? <Eye size={18} /> : <EyeOff size={18} />}
   </button>
@@ -225,7 +225,7 @@ const [showConfirmPassword, setShowConfirmPassword] = useState(false);
                 />
                 <p className="text-white">
                   I agree to the {" "}
-                  <a href="#" className="underline underline-offset-2 hover:text-[#d3f85a]">
+                  <a href="#" className="underline underline-offset-2 hover:text-[#d3f85a] cursor-pointer z-10">
                     Terms and Conditions
                   </a>
                 </p>
